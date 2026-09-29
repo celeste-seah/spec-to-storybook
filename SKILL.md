@@ -5,6 +5,9 @@ description: Turns a design spec written in the [Storybook] format into Storyboo
 
 # Spec to Storybook
 
+Documented in the Native Design Workflow & Experiments Library:
+https://app.notion.com/p/3ea77dbba78881f9803ec33aafd0686f
+
 One shot per spec, run when the component is built. Reruns detect what already exists and
 skip to the first undone step. Writes stories and descriptions only. Never invents
 behaviour that is not in the spec.
