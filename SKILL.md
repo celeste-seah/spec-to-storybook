@@ -47,7 +47,9 @@ team's config, see [CONFIG-TEMPLATE.md](CONFIG-TEMPLATE.md). Never hard-code the
    the PR; do not try to view Storybook locally.
 8. **Branch, commit, PR.** Branch and title from config defaults
    (`docs/storybook-<piece>-spec`, `docs(storybook): <piece> design spec`). Real PR,
-   not draft. Body: problem, solution, stories list, tests. Stop after opening.
+   not draft. Body follows the template in [REFERENCE.md](REFERENCE.md#pr): Problem,
+   Solution, Notes for reviewers, Tests, written for an engineer who has not seen the
+   spec. Stop after opening.
 9. **Linear ticket.** One ticket: review and merge the PR. No description. PR and spec as
    links. Assign to the runner by Linear user id. Team, project, parent, milestone and
    labels from config. Show it before creating. Linear down: list it in the PR body.
