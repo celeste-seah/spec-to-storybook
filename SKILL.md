@@ -30,8 +30,9 @@ team's config, see [CONFIG-TEMPLATE.md](CONFIG-TEMPLATE.md). Never hard-code the
 3. **Read the spec.** Only `[Storybook]` sections move. `[Storybook] Description` becomes
    the meta's component description, verbatim. Each `[Storybook] Stories` item becomes
    one story in spec order, its one-line description verbatim, its copy from the
-   callouts. No item, no story; no description line, no story description. Everything
-   else stays in the spec.
+   callouts. No item, no story; no description line, no story description. Storybook
+   holds generalisable rules and states only; the spec's Instances section and
+   everything else stay in the spec.
 4. **Find the component and its stories.** Locate the component file. Check Storybook
    discovers its folder; if not, add a discovery entry under the config's prefix.
    Propose a pairing per Stories item against existing exports.

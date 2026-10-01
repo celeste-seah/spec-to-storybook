@@ -46,9 +46,10 @@ log. Toggles stay here and are not copied.
 ## [Storybook] Stories
 
 One item per story, in the order they should appear. Autodocs renders the first item as
-the page hero, so lead with the states or the most common configuration. Instances, edge
-cases and states all live here; the one-line description says which it is. All copy for
-the piece lives in the callouts; other docs link here rather than repeating it.
+the page hero, so lead with the states or the most common configuration. Only states and
+edge cases that hold for any product go here; product-specific configurations go in
+Instances below. All copy for the piece lives in the callouts; other docs link here
+rather than repeating it.
 
 #### <Story name>
 
@@ -56,6 +57,22 @@ One line: what this story shows and the rule it demonstrates. Copied under the c
 **Story:** export name, filled in once the story exists
 
 **<Version, if the story shows more than one>**
+> exact copy, with template variables in {{BRACES}}
+- **Trigger:** what turns it on and off
+
+---
+
+## Instances
+
+Product-specific configurations of the piece, with their exact copy. Spec only, not
+copied to Storybook. Rules that only make sense for one product, such as tenant-specific
+copy and its fallback, go here too.
+
+#### <Instance name>
+
+One line: when this configuration applies.
+
+**<Version>**
 > exact copy, with template variables in {{BRACES}}
 - **Trigger:** what turns it on and off
 

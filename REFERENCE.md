@@ -34,11 +34,14 @@ Metadata table                       spec only
       **Story:** <ExportName>        -> filled by this skill
       **<Version>** + callout copy   -> fixture data
       - **Trigger:** ...             -> comment or ignored
+## Instances                         spec only: product-specific configurations
 ## Open questions                    spec only
 ## Decisions log                     spec only, append one line
 ```
 
-History toggles inside the Description stay in the spec and are not copied.
+History toggles inside the Description stay in the spec and are not copied. So does the
+Instances section: Storybook documents rules and states that hold for any product, not
+one tenant's copy.
 
 ## Storybook discovery
 
